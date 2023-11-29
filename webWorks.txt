@@ -1,0 +1,16 @@
+
+Uniform Resource Locator- more commonly refered to as the web address-is the address for a website or other internet resources
+Domain Name System - takes the hostname and translates that into an IP address
+string at the end of the url which adds addtional information such as search terms, information from forms, etc. ex:(?x =1)
+GET and POST- GET is a request to receive data from a server while POST is a request to submit data to a server
+a request to a server to access the site which follows the HTTP request format
+a response from a server to see the webpage and follows the HTTP response format
+provides some information about both the request and response
+Request Headers- :authority:, Accept-Language, If-Modified-Since:
+Response Headers- Content-Type, Server, Date
+
+1. The browser uses DNS to turn the hostname into and IP address
+2. The browser makes a request using HTTP request protcol to the IP address
+3. The browser gives a response using HTTP response protocol
+4. the browser loads the webpage using HTML and searches the other documents for additional resources
+5. The browser makes additional requests for the resources and receives them from a server
